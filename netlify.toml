@@ -1,0 +1,7 @@
+[build]
+  publish = "dist"  
+
+  command = "npm run build"  # Si usas un proceso de construcción, como Webpack o algo similar
+
+[context.production.environment]
+  NODE_ENV = "production"
